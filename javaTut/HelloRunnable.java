@@ -3,7 +3,7 @@ package javaTut;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HelloRunnable implements Runnable {
+public class HelloRunnable implements Runnable { 
 	public static List<String> list = new ArrayList<String>();
 	private String name;
 	private int n;
@@ -34,7 +34,7 @@ public class HelloRunnable implements Runnable {
 				try {
 					Thread.sleep(30);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
+				
 					e.printStackTrace();
 				}
 	//			synchronized(list){
