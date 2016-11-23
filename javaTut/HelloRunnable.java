@@ -3,11 +3,7 @@ package javaTut;
 import java.util.ArrayList;
 import java.util.List;
 
-<<<<<<< HEAD
 public class HelloRunnable implements Runnable { 
-=======
-public class HelloRunnable implements Runnable {//test git
->>>>>>> 619d43a7815afd5bd0086a65cde80290b3a4b658
 	public static List<String> list = new ArrayList<String>();
 	private String name;
 	private int n;
