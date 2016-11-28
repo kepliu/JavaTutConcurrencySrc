@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HelloRunnable implements Runnable { //test fetch 
-	public static List<String> list = new ArrayList<String>();
+	public static List<String> list = new ArrayList<String>();//local change
 	private String name;
 	private int n;
 	public HelloRunnable(){
