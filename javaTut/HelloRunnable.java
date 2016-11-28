@@ -3,7 +3,7 @@ package javaTut;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HelloRunnable implements Runnable { 
+public class HelloRunnable implements Runnable { //test fetch and pull
 	public static List<String> list = new ArrayList<String>();
 	private String name;
 	private int n;
